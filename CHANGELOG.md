@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/freeCodeCamp/eslint-config-freecodecamp/compare/v1.1.0...v1.1.1) (2017-11-02)
+
+
+### Bug Fixes
+
+* **packages:** Add required peersdeps ([cd052d0](https://github.com/freeCodeCamp/eslint-config-freecodecamp/commit/cd052d0))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2017-11-02)
 
