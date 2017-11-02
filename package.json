@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-freecodecamp",
+  "version": "1.0.0",
+  "description": "freeCodeCamps eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Happy Coding\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/eslint-config-freecodecamp.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "freecodecamp",
+    "fcc"
+  ],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/eslint-config-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/eslint-config-freecodecamp#readme"
+}
