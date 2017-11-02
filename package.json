@@ -4,7 +4,8 @@
   "description": "freeCodeCamps eslint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Happy Coding\""
+    "test": "ava",
+    "test:watch": "ava -w"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/freeCodeCamp/eslint-config-freecodecamp/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/eslint-config-freecodecamp#readme"
+  "homepage": "https://github.com/freeCodeCamp/eslint-config-freecodecamp#readme",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.10.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
 }
