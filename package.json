@@ -33,7 +33,11 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "peerDependencies": {
-    "eslint": ">=4.10.0"
+    "babel-eslint": ">=8.0.1",
+    "eslint": ">=4.10.0",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-prefer-object-spread": ">=1.2.1",
+    "eslint-plugin-react": ">=7.4.0"
   },
   "devDependencies": {
     "ava": "^0.23.0",
