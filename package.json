@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "ava",
-    "test:watch": "ava -w"
+    "test:watch": "ava -w",
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,10 @@
     "eslint": ">=4.10.0"
   },
   "devDependencies": {
-    "ava": "^0.23.0"
+    "ava": "^0.23.0",
+    "commitizen": "^2.9.6",
+    "cz-freecodecamp": "^1.0.1",
+    "husky": "^0.14.3",
+    "validate-commit-msg": "^2.14.0"
   }
 }
