@@ -1,49 +1,51 @@
 {
-  "name": "eslint-config-freecodecamp",
-  "version": "1.1.1",
-  "description": "freeCodeCamps eslint",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava",
-    "test:watch": "ava -w",
-    "commit": "git-cz",
-    "commitmsg": "validate-commit-msg"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freeCodeCamp/eslint-config-freecodecamp.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "freecodecamp",
-    "fcc"
-  ],
-  "author": "",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/eslint-config-freecodecamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/eslint-config-freecodecamp#readme",
-  "dependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.10.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prefer-object-spread": "^1.2.1",
-    "eslint-plugin-react": "^7.4.0"
-  },
-  "peerDependencies": {
-    "babel-eslint": ">=8.0.1",
-    "eslint": ">=4.10.0",
-    "eslint-plugin-import": ">=2.8.0",
-    "eslint-plugin-prefer-object-spread": ">=1.2.1",
-    "eslint-plugin-react": ">=7.4.0"
-  },
-  "devDependencies": {
-    "ava": "^0.23.0",
-    "commitizen": "^2.9.6",
-    "cz-freecodecamp": "^1.0.1",
-    "husky": "^0.14.3",
-    "validate-commit-msg": "^2.14.0"
-  }
+	"name": "@freecodecamp/eslint-config",
+	"version": "2.0.0",
+	"description": "freeCodeCamps eslint config",
+	"main": "index.js",
+	"scripts": {
+		"test": "ava",
+		"test:watch": "ava -w",
+		"commit": "git-cz",
+		"commitmsg": "validate-commit-msg"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/freeCodeCamp/eslint-config-freecodecamp.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"freecodecamp",
+		"fcc"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"author": "freeCodeCamp <team@freeCodeCamp.org>",
+	"license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/freeCodeCamp/eslint-config-freecodecamp/issues"
+	},
+	"homepage": "https://github.com/freeCodeCamp/eslint-config-freecodecamp#readme",
+	"dependencies": {},
+	"peerDependencies": {
+		"babel-eslint": ">=10.0.0",
+		"eslint": ">=5.0.0",
+		"eslint-plugin-import": ">=2.16.0",
+		"eslint-plugin-prefer-object-spread": ">=1.2.1",
+		"eslint-plugin-react": ">=7.12.0"
+	},
+	"devDependencies": {
+		"ava": "^1.2.1",
+		"babel-eslint": "^10.0.1",
+		"commitizen": "^3.0.5",
+		"cz-freecodecamp": "^1.0.1",
+		"eslint": "^5.14.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-prefer-object-spread": "^1.2.1",
+		"eslint-plugin-react": "^7.12.4",
+		"husky": "^0.14.3",
+		"validate-commit-msg": "^2.14.0"
+	}
 }
